@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: MyGreatNewComponent
+  description: Here's a description for my great new SSR react component
+spec:
+  type: website
+  lifecycle: experimental
+  owner: guest
